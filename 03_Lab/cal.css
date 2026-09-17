@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #00fff7;
+    font-family: Arial, sans-serif;
+}
+
+
+#container {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(220, 29, 29, 0.5);
+    text-align: center;
+}
+
+input[type="text"] {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+input[type="text"]:hover {
+    border-color: #0b1e1d;
+    box-shadow: 0 0 5px rgba(5, 11, 11, 0.5);
+}
+.num {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+
+.num button{
+    
+    height: 30px;
+    width: 30px;
+    align-items: center;
+    justify-content: center;
+} 
